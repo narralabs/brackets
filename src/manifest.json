@@ -1,0 +1,25 @@
+{
+  "name": "Brackets",
+  "description": "A chrome extension base template",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/brackets_16.png",
+      "32": "images/brackets_32.png",
+      "48": "images/brackets_48.png",
+      "128": "images/brackets_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/brackets_16.png",
+    "32": "images/brackets_32.png",
+    "48": "images/brackets_48.png",
+    "128": "images/brackets_128.png"
+  }
+}
