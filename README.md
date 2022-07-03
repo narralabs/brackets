@@ -1,12 +1,10 @@
 # Brackets
 
-![brackets_logo](https://user-images.githubusercontent.com/99235/177054577-1ccaa562-fc34-4b69-a830-8b0308b4189e.png)
-
-## Introduction
-
 Brackets is a template for creating chrome extensions. It uses webpack to
 support frontend frameworks and other libraries. It also uses Tailwind CSS 3
 (through webpack/postcss) for its CSS framework and works out of the box.
+
+![brackets_logo](https://user-images.githubusercontent.com/99235/177054577-1ccaa562-fc34-4b69-a830-8b0308b4189e.png)
 
 ## Requirements
 
