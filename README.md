@@ -13,11 +13,11 @@ support frontend frameworks and other libraries. It also uses Tailwind CSS 3
 ## Getting Started
 
 All the work will be done in the `src` folder. The `src` folder will then be
-compiled to the `extensions` folder.
+compiled to the `extension` folder.
 
 1. Install packages: `npm install`
-2. Run the build: `npm run-script dev`. This will watch the `src` folder for changes and compile into `extensions`
-3. In chrome://extensions, click "Load unpacked" and select the `extensions` folder
+2. Run the build: `npm run-script dev`. This will watch the `src` folder for changes and compile into `extension`
+3. In chrome://extensions, click "Load unpacked" and select the `extension` folder
 
 ## Releasing Your Extension
 
