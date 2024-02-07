@@ -24,7 +24,11 @@ compiled to the `extension` folder.
 If you want to use react in the chrome extension popup do the following after cloning:
 
 1. Add the react and react-dom packages: `npm install --save-dev react react-dom`
-2. Add the webpack plugins to support JSX compilation: `npm install -D @babel/preset-env @babel/preset-react @babel/runtime @babel/plugin-transform-runtime @babel/plugin-syntax-dynamic-import @babel/plugin-proposal-class-properties babel-plugin-transform-react-remove-prop-types @babel/plugin-transform-react-inline-elements @babel/plugin-transform-react-constant-elements`
+2. Add the webpack plugins to support JSX compilation:
+```
+npm install -D babel-loader @babel/preset-env @babel/preset-react @babel/runtime @babel/plugin-transform-runtime @babel/plugin-syntax-dynamic-import @babel/plugin-proposal-class-properties babel-plugin-transform-react-remove-prop-types @babel/plugin-transform-react-inline-elements @babel/plugin-transform-react-constant-elements
+```
+
 3. Modify `webpack.config.js` and add line to support JSX
 ```
 ...
